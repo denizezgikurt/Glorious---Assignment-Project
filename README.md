@@ -1,30 +1,13 @@
-# Webpack Frontend Starterkit
+# Challanges:
+There were a few issues with image and style files in webpack. It was going to take some time to debug because I'm not experienced with webpack, so I decided to write style in style tags in html.
 
-A lightweight foundation for your next webpack based frontend project.
+# Things I would like to do if I had more time:
+- I thought about creating elements by referencing the selected images from the first step. I started writing the code, but it was getting late and I had to take them back.
+- Idea was to push all the selected elements into an array. Then loop through the array and append them to the second page's section.
+- I know that I could avoid some of the html elements by using sass, but I'd need to research the internet for the syntax.
 
 
-### Installation
-
-```
-npm install
-```
-
-### Start Dev Server
-
-```
-npm start
-```
-
-### Build Prod Version
-
-```
-npm run build
-```
-
-### Features:
-
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+# Take aways
+1. I've realized that I should learn more about Sass and practise javascript syntax, as I had to google a few things.
+2. Webpack was a bit hard to understand, but I read about Gulp while I was researching. So I might start learning those as well.
+3. It's really fun to code!
